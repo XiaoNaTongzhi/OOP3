@@ -6,4 +6,10 @@ public class Moped extends Bike{
         
     }
 
+
+    @Override
+    public String toString() {
+        return "Мопед [Мотор: " + isMotor() + ", Педали: " + isPedals() + "]";
+    }
+
 }
