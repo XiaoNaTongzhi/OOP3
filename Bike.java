@@ -9,11 +9,15 @@ public class Bike extends Vehicles{
         this.pedals = pedals;
     }
 
+
     @Override
     public String toString() {
-        return "Bike [motor=" + motor + ", pedals=" + pedals + "]";
+        return "Bike [Мотор: " + motor + ", Педали: " + pedals + "]";
     }
 } 
+    
+
+
     
 
 
