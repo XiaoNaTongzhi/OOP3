@@ -1,4 +1,6 @@
-
+/**
+ * Vehicles
+ */
 public class Vehicles {
 
     int wheels;
@@ -20,5 +22,12 @@ public class Vehicles {
         return "Vehicles [wheels=" + wheels + ", canFly=" + canFly + ", maxSpeed=" + maxSpeed + ", minSpeed=" + minSpeed
                 + "]";
     }
-
+    
+    public String output(Boolean a) {
+        if (a == true) {
+            return("есть");
+        } else {
+            return("нет");
+        }
+    }
 }
