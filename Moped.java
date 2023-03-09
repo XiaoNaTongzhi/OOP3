@@ -6,6 +6,4 @@ public class Moped extends Bike{
         
     }
 
-    
-    
 }
